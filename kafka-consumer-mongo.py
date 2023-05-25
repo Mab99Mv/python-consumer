@@ -29,7 +29,7 @@ client= MongoClient(mongo_uri)
 
 try:
 
-    db = client.mydb
+    db = client.fotoart
     print("MongoDB Connected successfully!")
 except:
     print("Could not connect to MongoDB")
