@@ -11,7 +11,7 @@ import subprocess
 
 
 # replace here with your mongodb url 
-mongo_uri = 'mongodb+srv://mabelperezgaribay:121199Mv@proyecto1.g0chcwe.mongodb.net/proyecto1?retryWrites=true&w=majority'
+mongo_uri = 'mongodb+srv://mabelperezgaribay:ZsPXAYRZpjV7kcDf@cluster0.zv22hfc.mongodb.net/?retryWrites=true&w=majority'
 client= MongoClient(mongo_uri)
 
 
@@ -29,7 +29,7 @@ client= MongoClient(mongo_uri)
 
 try:
 
-    db = client.proyecto1
+    db = client.Cluster0
     print("MongoDB Connected successfully!")
 except:
     print("Could not connect to MongoDB")
